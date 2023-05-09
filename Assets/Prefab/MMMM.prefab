@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3887485518720937149}
   - component: {fileID: 3887485518720937151}
   - component: {fileID: 3887485518720937148}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Graphic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -115,8 +115,8 @@ GameObject:
   m_Component:
   - component: {fileID: 3887485520570728303}
   - component: {fileID: 3887485520570728301}
-  - component: {fileID: 3887485520570728272}
-  m_Layer: 0
+  - component: {fileID: 6603505549744943183}
+  m_Layer: 3
   m_Name: MMMM
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -155,7 +155,7 @@ CapsuleCollider2D:
   m_Offset: {x: 0.115906954, y: -0.15280354}
   m_Size: {x: 0.97897863, y: 1.6062083}
   m_Direction: 0
---- !u!114 &3887485520570728272
+--- !u!114 &6603505549744943183
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -167,5 +167,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad492c6cd40803042a9ead5d3ee7e4e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  anim: {fileID: 3887485518720937151}
-  speed: 10
+  anim: {fileID: 0}
+  speed: 0

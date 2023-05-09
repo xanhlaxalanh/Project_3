@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 6544489930131818059}
   - component: {fileID: 5885089305173240465}
   - component: {fileID: 3262736779639425197}
-  - component: {fileID: 8773549437572096737}
-  m_Layer: 0
+  - component: {fileID: -4121469056290217575}
+  m_Layer: 6
   m_Name: D-pizza
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -112,7 +112,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &8773549437572096737
+--- !u!114 &-4121469056290217575
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -121,6 +121,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 3298245902187938757}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7a7c253a28822d4fb82202af5b86915, type: 3}
+  m_Script: {fileID: 11500000, guid: 10af63bfc2f00244fa758ed581a4785f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 8

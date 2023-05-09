@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 5774292373556104785}
   - component: {fileID: 4302370164891506579}
   - component: {fileID: 8771675555361039505}
-  - component: {fileID: 2060717188811243728}
-  m_Layer: 0
+  - component: {fileID: 7896613348050939071}
+  m_Layer: 6
   m_Name: D-choco
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -112,7 +112,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &2060717188811243728
+--- !u!114 &7896613348050939071
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -121,6 +121,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 8599312960025715281}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7a7c253a28822d4fb82202af5b86915, type: 3}
+  m_Script: {fileID: 11500000, guid: 10af63bfc2f00244fa758ed581a4785f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 8

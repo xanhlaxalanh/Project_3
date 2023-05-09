@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 1604330060896230029}
   - component: {fileID: 2126853144552243995}
   - component: {fileID: 1292576922076438621}
-  - component: {fileID: 5920691480884429444}
-  m_Layer: 0
+  - component: {fileID: -1657127285002901049}
+  m_Layer: 6
   m_Name: D-egg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -112,7 +112,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &5920691480884429444
+--- !u!114 &-1657127285002901049
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -121,6 +121,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 2544825885014990830}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7a7c253a28822d4fb82202af5b86915, type: 3}
+  m_Script: {fileID: 11500000, guid: 10af63bfc2f00244fa758ed581a4785f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 8
