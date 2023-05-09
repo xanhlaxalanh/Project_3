@@ -22,5 +22,14 @@ public class Player_move : MonoBehaviour
             anim.SetBool("isIdle", false);
             transform.Translate(speed * Time.deltaTime, 0, 0);
         }
+        if(Input.GetKey(KeyCode.DownArrow))
+        {
+            transform.Translate(new Vector3(0, -speed* Time.deltaTime, 0));
+        }
+
+        if(Input.GetKey(KeyCode.UpArrow))
+        {
+            transform.Translate(new Vector3(0, speed* Time.deltaTime, 0));
+        }
     }
 }
