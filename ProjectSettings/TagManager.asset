@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - chair
+  - slot
+  - Spawner
+  - customers
+  - stove
+  - player
   layers:
   - Default
   - TransparentFX
